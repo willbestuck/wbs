@@ -1,17 +1,49 @@
-<!doctype html>
+{% load staticfiles %}
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
 
-  <title>Hello, I am Ben!</title>
-
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="{% static "info/css/index.css" %}">
 
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
-  <div><p>This is the body of the website.</p></div>
+  <div class="nav">
+  	
+  	<div class="logo">
+  		<a href="/info" id="bslogo" ><img src="{% static "info/img/logo.png" %}" ></a>
+  	</div>
+  	<div class="links">
+
+	  	<div class="link_item" id="about"><a href="/info">About</a></div>
+	  	<div class="link_item" id="resume"><a href="/info">Resume</a></div>
+	  	<div class="link_item" id="dotabuff"><a href="/info">Dotabuff</a></div>
+	  	<div class="link_item" id="contact"><a href="/info">Contact</a></div>
+
+	</div>
+
+  </div>
+
+  <div class="data">
+
+
+  </div>
+
+  <div class="pictures">
+
+
+  </div>
+
+  <div class="footer">
+
+
+  </div>
+
+
+
+
+
+  <script src="{% static "info/js/jquery-1.11.1.min.js" %}" type="text/javascript"></script>
+  <script src="{% static "info/js/index.js" %}" type="text/javascript"></script>
 </body>
 </html>
