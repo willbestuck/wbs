@@ -51,17 +51,17 @@ body {
 	width: 600px;
 }
 
-.link_item {
+.link-item {
 	background-color: #19191C;
 	float: left;
 	height: 100%;
 	width: 150px;
 }
 
-.link_item a {
+.link-item a {
 	display: block;
 	font-family: 'Abel', sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	color: #FFFAFA;
 	text-align: center;
 	vertical-align: middle;
@@ -69,8 +69,8 @@ body {
 	text-decoration: none;
 }
 
-.link_item a:hover {
-	font-size: 30px;
+.link-item a:hover {
+	font-size: 40px;
 	font-weight: bold;
 }
 
