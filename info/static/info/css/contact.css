@@ -1,0 +1,133 @@
+/*Template CSS for Index.html*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	background-color: #19191C;
+
+	position: relative;
+	height: 70px;
+	width: 100%;
+	min-width: 980px;
+	margin: 0;
+	padding: 0;
+
+	border-bottom: 2px groove #888888;
+
+}
+
+.logo {
+
+	position:relative;
+	left: 20px;
+	height:100%;
+	width: 100px;
+}
+
+#bslogo {
+	position: absolute;
+	height:100%;
+	width: 100px;
+}
+
+#bslogo img {
+	position: absolute;
+	padding-top: 5px;
+	height: 90%;
+	width: 100px;
+}
+
+.links {
+	background-color: #19191C;
+
+	position: absolute;
+	top: 0;
+	right: 20px;
+
+	height:100%;
+	width: 600px;
+}
+
+.link-item {
+	background-color: #19191C;
+	float: left;
+	height: 100%;
+	width: 150px;
+}
+
+.link-item a {
+	display: block;
+	font-family: 'Abel', sans-serif;
+	font-size: 25px;
+	color: #FFFAFA;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 70px;
+	text-decoration: none;
+}
+
+.link-item a:hover {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#contact a {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.wrapper {
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+
+	width: 980px;
+}
+
+/*############################################################*/
+
+.data {
+	background-color: #C5C5D8;
+	border-bottom: 5px groove #C5C5D8;
+
+	position: relative;
+	height: 600px;
+	width: 100%;
+	min-width: 980px;
+	margin: 0;
+	padding: 0;
+}
+
+/*############################################################*/
+
+.pictures {
+	background-color: #E0E0EB;
+
+	border-bottom: 5px groove #E0E0EB;
+
+	position: relative;
+	height: 500px;
+	width: 100%;
+	min-width: 980px;
+	margin: 0;
+	padding: 0px;
+}
+
+/*############################################################*/
+
+.footer {
+	background-color: #FFFAFA;
+
+	position: relative;
+	height: 150px;
+	width: 100%;
+	min-width: 980px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
