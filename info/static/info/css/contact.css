@@ -2,7 +2,6 @@
 
 body {
 	margin: 0;
-	padding: 0;
 }
 
 .nav {
@@ -21,31 +20,28 @@ body {
 
 .logo {
 
-	position:relative;
-	left: 20px;
+	float: left;
+	margin-left: 20px;
 	height:100%;
 	width: 100px;
 }
 
 #bslogo {
-	position: absolute;
 	height:100%;
 	width: 100px;
 }
 
 #bslogo img {
-	position: absolute;
 	padding-top: 5px;
-	height: 90%;
+	height: 60px;
 	width: 100px;
 }
 
 .links {
 	background-color: #19191C;
 
-	position: absolute;
-	top: 0;
-	right: 20px;
+	float: right;
+	margin-right: 20px;
 
 	height:100%;
 	width: 600px;
@@ -80,9 +76,7 @@ body {
 }
 
 .wrapper {
-	float: left;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
 
 	width: 980px;
 }

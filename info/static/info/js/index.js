@@ -3,7 +3,7 @@
 $(document).ready(function () {
     
   WebFontConfig = {
-    google: { families: [ 'Abel::latin' ] }
+    google: { families: [ 'Abel::latin', 'Lato:900:latin'] }
   };
   (function() {
     var wf = document.createElement('script');
