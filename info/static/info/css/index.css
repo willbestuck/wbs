@@ -1,6 +1,9 @@
 /*Template CSS for Index.html*/
+{% load staticfiles %}
 
 body {
+	background-color: #191E2A;
+	height: 100%;
 	margin: 0;
 }
 
@@ -79,11 +82,12 @@ body {
 /*############################################################*/
 
 .data {
-	background-color: #EAEDF3;
+	background: url("/static/info/img/ben.JPG") repeat fixed center;
+	background-size: 1850px;
 	/*border-bottom: 2px groove #EAEDF3;*/*/
 
 	position: relative;
-	height: 652px;
+	height: 800px;
 	width: 100%;
 	min-width: 980px;
 	margin: 0;
@@ -110,7 +114,7 @@ body {
 	/*border-bottom: 2px groove #D3D5DB;*/*/
 
 	position: relative;
-	height: 240px;
+	height: 250px;
 	width: 100%;
 	min-width: 980px;
 	margin: 0;
@@ -122,19 +126,32 @@ body {
 	text-align: center;
 	color: #191E2A;
 	font-family: 'Abel', sans-serif;
-	font-size: 50px;
-	font-weight: 400;
+	font-size: 60px;
+	font-weight: 500;
 }
 
 /*############################################################*/
 
 .footer {
-	background-color: #EAEDF3;
+	background-color: #191E2A;
 
 	position: relative;
-	height: 20%;
+	height: 80px;
 	width: 100%;
 	min-width: 980px;
 	margin: 0;
 	padding: 0;
+}
+
+#footer-links {
+	padding-top: 50px;
+	padding-left: 60px;
+	float: left;
+	color: #FFFAFA;
+}
+
+#signature {
+	padding-top: 50px;
+	float: right;
+	color: #FFFAFA;
 }
