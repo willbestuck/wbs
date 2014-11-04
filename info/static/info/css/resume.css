@@ -2,6 +2,7 @@
 
 body {
 	margin: 0;
+	padding: 0;
 }
 
 .nav {
@@ -73,6 +74,11 @@ body {
 	font-weight: bold;
 }
 
+#resume a {
+	font-size: 40px;
+	font-weight: bold;
+}
+
 .wrapper {
 	float: left;
 	margin-right: auto;
@@ -93,29 +99,6 @@ body {
 	min-width: 980px;
 	margin: 0;
 	padding: 0;
-}
-
-#ben_pic {
-	float:right;
-	margin-right: 20%;
-}
-
-#ben_pic img {
-	margin-top: 50px;
-	height: 500px;
-	border:1px solid #19191C;
-}
-
-#shorty {
-	float:left;
-	margin-top: 50px;
-	margin-left: 20%;
-	width: 15%;
-}
-
-#shorty p {
-	float: left;
-	margin-top: 10px;
 }
 
 /*############################################################*/
@@ -145,3 +128,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+
+
