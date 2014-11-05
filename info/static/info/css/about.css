@@ -84,11 +84,11 @@ body {
 /*############################################################*/
 
 .data {
-	background-color: #C5C5D8;
-	border-bottom: 5px groove #C5C5D8;
+	background-color: #EAEDF3;
+	/*border-bottom: 5px groove #C5C5D8;*/
 
 	position: relative;
-	height: 600px;
+	height: 1200px;
 	width: 100%;
 	min-width: 980px;
 	margin: 0;
@@ -97,7 +97,7 @@ body {
 
 /*############################################################*/
 
-.pictures {
+/*.pictures {
 	background-color: #E0E0EB;
 
 	border-bottom: 5px groove #E0E0EB;
@@ -108,19 +108,42 @@ body {
 	min-width: 980px;
 	margin: 0;
 	padding: 0px;
-}
+}*/
 
 /*############################################################*/
 
 .footer {
-	background-color: #FFFAFA;
+	background-color: #191E2A;
 
 	position: relative;
-	height: 150px;
+	height: 80px;
 	width: 100%;
 	min-width: 980px;
 	margin: 0;
 	padding: 0;
+}
+
+#footer-links {
+	padding-top: 50px;
+	padding-left: 60px;
+	float: left;
+}
+
+#footer-links a {
+	font-family: 'Abel', sans-serif;
+	color: #FFFAFA;
+	text-decoration: none;
+}
+
+#footer-links a:hover {
+	text-decoration: underline;
+}
+
+#signature {
+	font-family: 'Abel', sans-serif;
+	padding-top: 50px;
+	float: right;
+	color: #FFFAFA;
 }
 
 

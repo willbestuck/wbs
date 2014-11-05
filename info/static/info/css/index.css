@@ -114,7 +114,7 @@ body {
 	/*border-bottom: 2px groove #D3D5DB;*/*/
 
 	position: relative;
-	height: 250px;
+	height: 230px;
 	width: 100%;
 	min-width: 980px;
 	margin: 0;
@@ -126,7 +126,7 @@ body {
 	text-align: center;
 	color: #191E2A;
 	font-family: 'Abel', sans-serif;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 500;
 }
 
@@ -147,10 +147,20 @@ body {
 	padding-top: 50px;
 	padding-left: 60px;
 	float: left;
+}
+
+#footer-links a {
+	font-family: 'Abel', sans-serif;
 	color: #FFFAFA;
+	text-decoration: none;
+}
+
+#footer-links a:hover {
+	text-decoration: underline;
 }
 
 #signature {
+	font-family: 'Abel', sans-serif;
 	padding-top: 50px;
 	float: right;
 	color: #FFFAFA;

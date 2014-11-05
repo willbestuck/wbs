@@ -27,7 +27,7 @@
 
   <div class="data">
     <div class="wrapper" id="datawrapper">
-
+      <embed class="pdf" src="{% static "info/img/resume.pdf" %}">
     </div>
   </div>
 
@@ -39,7 +39,12 @@
 
   <div class="footer">
     <div class='wrapper' id="footerwrapper">
-    
+      <div id="footer-links"><a href="/info">Home</a></div>
+      <div id="footer-links"><a href="/about">About</a></div>
+      <div id="footer-links"><a href="/resume">Resume</a></div>
+      <div id="footer-links"><a target="_blank" href="http://www.dotabuff.com/players/64704606">Dotabuff</a></div>
+      <div id="footer-links"><a href="/contact">Contact</a></div>
+      <div id="signature">Created in 2014 by Ben Stueck</div></div>
     </div>
   </div>
 
@@ -48,6 +53,6 @@
 
 
   <script src="{% static "info/js/jquery-1.11.1.min.js" %}" type="text/javascript"></script>
-  <script src="{% static "info/js/resume.js" %}" type="text/javascript"></script>
+  <script src="{% static "info/js/index.js" %}" type="text/javascript"></script>
 </body>
 </html>
