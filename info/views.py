@@ -13,6 +13,10 @@ def resume(request):
 	context = {}
 	return render(request, 'info/resume.html', context)
 
+def projects(request):
+	context = {}
+	return render(request, 'info/projects.html', context)
+
 def contact(request):
 	context = {}
 	return render(request, 'info/contact.html', context)

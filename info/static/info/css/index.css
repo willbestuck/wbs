@@ -82,29 +82,28 @@ body {
 /*############################################################*/
 
 .data {
-	background: url("/static/info/img/ben.JPG") repeat fixed center;
-	background-size: 1850px;
+	background: url("/static/info/img/ben.JPG") no-repeat scroll center;
+	background-size: cover;
 	/*border-bottom: 2px groove #EAEDF3;*/*/
 
 	position: relative;
-	height: 800px;
+	height: 85%;
 	width: 100%;
-	min-width: 980px;
 	margin: 0;
 	padding: 0;
 }
 
-#ben_pic {
+/*#ben_pic {
 	height: 100%;
 	width: 980px;
 	float: right;
-	/*margin-right: 20px;*/
+	margin-right: 20px;
 }
 
 #ben_pic img {
 	width: 100%;
-	/*border:1px solisssd #19191C;*/
-}
+	border:1px solid #19191C;
+}*/
 
 /*############################################################*/
 
@@ -162,6 +161,7 @@ body {
 #signature {
 	font-family: 'Abel', sans-serif;
 	padding-top: 50px;
+	padding-right:60px;
 	float: right;
 	color: #FFFAFA;
 }
