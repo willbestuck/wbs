@@ -1,0 +1,134 @@
+/*Template CSS for Index.html*/
+
+{% load staticfiles %}
+
+html, body {
+  height: 100%;
+  min-height: 100%; /* for firefox */
+}
+
+body {
+	background-color: #191E2A;
+	margin: 0;
+}
+
+.nav {
+	background-color: #19191C;
+
+	position: relative;
+	height: 70px;
+	width: 100%;
+	min-width: 980px;
+	margin: 0;
+	padding: 0;
+
+	border-bottom: 2px groove #888888;
+
+}
+
+.logo {
+
+	float: left;
+	margin-left: 20px;
+	height:100%;
+	width: 100px;
+}
+
+#bslogo {
+	height:100%;
+	width: 100px;
+}
+
+#bslogo img {
+	padding-top: 5px;
+	height: 60px;
+	width: 100px;
+}
+
+.links {
+	background-color: #19191C;
+
+	float: right;
+	margin-right: 20px;
+
+	height:100%;
+	width: 600px;
+}
+
+.link-item {
+	background-color: #19191C;
+	float: left;
+	height: 100%;
+	width: 150px;
+}
+
+.link-item a {
+	display: block;
+	font-family: 'Abel', sans-serif;
+	font-size: 25px;
+	color: #FFFAFA;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 70px;
+	text-decoration: none;
+}
+
+.link-item a:hover {
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+
+.wrapper {
+	margin: 0 auto;
+	height: 100%;
+	width: 980px;
+}
+
+/*############################################################*/
+
+.data {
+	background-color: #EAEDF3;
+	/*border-bottom: 5px groove #C5C5D8;*/
+
+	position: relative;
+	height: 1200px;
+	width: 100%;
+	min-width: 980px;
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	background-color: #191E2A;
+
+	position: relative;
+	height: 80px;
+	width: 100%;
+	min-width: 980px;
+	margin: 0;
+	padding: 0;
+}
+
+#footer-links {
+	padding-top: 50px;
+	padding-left: 60px;
+	float: left;
+}
+
+#footer-links a {
+	font-family: 'Abel', sans-serif;
+	color: #FFFAFA;
+	text-decoration: none;
+}
+
+#footer-links a:hover {
+	text-decoration: underline;
+}
+
+#signature {
+	font-family: 'Abel', sans-serif;
+	padding-top: 50px;
+	float: right;
+	color: #FFFAFA;
+}
