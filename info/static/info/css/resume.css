@@ -2,11 +2,36 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	position:relative;
 	height: 1175px;
-	width: 900px;
+	width: 100%;
 }
 
 #resume a {
 	font-size: 40px;
 	font-weight: bold;
+}
+
+.pictures {
+	background-color: #CCCCCC;
+	/*border-bottom: 5px groove #C5C5D8;*/
+
+	position: relative;
+	height: 1200px;
+	width: 100%;
+	min-width: 980px;
+	margin: 0;
+	padding: 0;
+}
+
+.data {
+	background-color: #CCCCCC;
+	/*border-bottom: 5px groove #C5C5D8;*/
+
+	position: relative;
+	height: 20px;
+	width: 100%;
+	min-width: 980px;
+	margin: 0;
+	padding: 0;
 }
