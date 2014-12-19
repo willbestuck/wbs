@@ -1,134 +1,269 @@
-/*Template CSS for Index.html*/
+@media only screen and (min-width:980px){
 
-{% load staticfiles %}
+	html, body {
+	  height: 100%;
+	  min-height: 100%; /* for firefox */
+	}
 
-html, body {
-  height: 100%;
-  min-height: 100%; /* for firefox */
+	body {
+		background-color: #19191C;
+		margin: 0;
+	}
+
+	.nav {
+		background-color: #19191C;
+
+		position: relative;
+		height: 70px;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+
+		border-bottom: 2px groove #888888;
+
+	}
+
+	.logo {
+
+		float: left;
+		margin-left: 20px;
+		height:100%;
+		width: 100px;
+	}
+
+	#bslogo {
+		height:100%;
+		width: 100px;
+	}
+
+	#bslogo img {
+		padding-top: 5px;
+		height: 86%;
+		width: auto;
+	}
+
+	.links {
+		background-color: #19191C;
+
+		float: right;
+		margin-right: 20px;
+
+		height:100%;
+		width: 500px;
+	}
+
+	.link-item {
+		background-color: #19191C;
+		position: relative;
+		float: left;
+		height: 100%;
+		width: 25%;
+	}
+
+	.link-item a {
+		display: block;
+		font-family: 'Abel', sans-serif;
+		font-size: 25px;
+		color: #FFFAFA;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 70px;
+		text-decoration: none;
+	}
+
+	.link-item a:hover {
+		font-size: 35px;
+		font-weight: bold;
+		
+	}
+
+	.wrapper {
+		margin: 0 auto;
+		height: 100%;
+		width: 980px;
+	}
+
+	/*############################################################*/
+
+	.data {
+		background-color: #EAEDF3;
+		/*border-bottom: 5px groove #C5C5D8;*/
+
+		position: relative;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.footer {
+		background-color: #19191C;
+
+		position: relative;
+		height: 70px;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#footer-links {
+		padding-top: 30px;
+		padding-left: 60px;
+		float: left;
+	}
+
+	#footer-links a {
+		font-family: 'Abel', sans-serif;
+		color: #FFFAFA;
+		text-decoration: none;
+	}
+
+	#footer-links a:hover {
+		text-decoration: underline;
+	}
+
+	#signature {
+		font-family: 'Abel', sans-serif;
+		padding-top: 30px;
+		margin-right: 60px;
+		float: right;
+		color: #FFFAFA;
+	}
+
 }
 
-body {
-	background-color: #191E2A;
-	margin: 0;
-}
+/*##################################################################*/
 
-.nav {
-	background-color: #19191C;
+@media only screen and (min-width:680px) and (max-width:980px){
 
-	position: relative;
-	height: 70px;
-	width: 100%;
-	min-width: 980px;
-	margin: 0;
-	padding: 0;
+	html, body {
+	  height: 100%;
+	  min-height: 100%; /* for firefox */
+	}
 
-	border-bottom: 2px groove #888888;
+	body {
+		background-color: #19191C;
+		margin: 0;
+	}
 
-}
+	.nav {
+		background-color: #19191C;
 
-.logo {
+		position: relative;
+		height: 70px;
+		width: 100%;
+		margin: 0;
+		padding: 0;
 
-	float: left;
-	margin-left: 20px;
-	height:100%;
-	width: 100px;
-}
+		border-bottom: 2px groove #888888;
 
-#bslogo {
-	height:100%;
-	width: 100px;
-}
+	}
 
-#bslogo img {
-	padding-top: 5px;
-	height: 60px;
-	width: 100px;
-}
+	.logo {
 
-.links {
-	background-color: #19191C;
+		float: left;
+		margin-left: 2%;
+		height:100%;
+		width: 10%;
+	}
 
-	float: right;
-	margin-right: 20px;
+	#bslogo {
+		height:100%;
+		width: 100px;
+	}
 
-	height:100%;
-	width: 600px;
-}
+	#bslogo img {
+		padding-top: 5px;
+		height: 86%;
+		width: auto;
+	}
 
-.link-item {
-	background-color: #19191C;
-	float: left;
-	height: 100%;
-	width: 150px;
-}
+	.links {
+		background-color: #19191C;
 
-.link-item a {
-	display: block;
-	font-family: 'Abel', sans-serif;
-	font-size: 25px;
-	color: #FFFAFA;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 70px;
-	text-decoration: none;
-}
+		float: right;
+		margin-right: 2%;
 
-.link-item a:hover {
-	font-size: 40px;
-	font-weight: bold;
-	
-}
+		height:100%;
+		width: 500px;
+	}
 
-.wrapper {
-	margin: 0 auto;
-	height: 100%;
-	width: 980px;
-}
+	.link-item {
+		background-color: #19191C;
+		position: relative;
+		float: left;
+		height: 100%;
+		width: 25%;
+	}
 
-/*############################################################*/
+	.link-item a {
+		display: block;
+		font-family: 'Abel', sans-serif;
+		font-size: 25px;
+		color: #FFFAFA;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 70px;
+		text-decoration: none;
+	}
 
-.data {
-	background-color: #EAEDF3;
-	/*border-bottom: 5px groove #C5C5D8;*/
+	.link-item a:hover {
+		font-size: 35px;
 
-	position: relative;
-	height: 1200px;
-	width: 100%;
-	min-width: 980px;
-	margin: 0;
-	padding: 0;
-}
+		font-weight: bold;
+		
+	}
 
-.footer {
-	background-color: #191E2A;
+	.wrapper {
+		margin: 0 auto;
+		height: 100%;
+		width: 100%;
+	}
 
-	position: relative;
-	height: 80px;
-	width: 100%;
-	min-width: 980px;
-	margin: 0;
-	padding: 0;
-}
+	/*############################################################*/
 
-#footer-links {
-	padding-top: 50px;
-	padding-left: 60px;
-	float: left;
-}
+	.data {
+		background-color: #EAEDF3;
+		/*border-bottom: 5px groove #C5C5D8;*/
 
-#footer-links a {
-	font-family: 'Abel', sans-serif;
-	color: #FFFAFA;
-	text-decoration: none;
-}
+		position: relative;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 
-#footer-links a:hover {
-	text-decoration: underline;
-}
+	.footer {
+		background-color: #19191C;
 
-#signature {
-	font-family: 'Abel', sans-serif;
-	padding-top: 50px;
-	float: right;
-	color: #FFFAFA;
+		height: 70px;
+		width: 100%;
+		 margin: 10px auto;
+  		position: relative;
+  		text-align:center;
+	}
+
+	#footer-links {
+		width: 15%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 30px;
+		display:inline-block;
+	}
+
+	#footer-links a {
+		font-family: 'Abel', sans-serif;
+		color: #FFFAFA;
+		text-decoration: none;
+	}
+
+	#footer-links a:hover {
+		text-decoration: underline;
+	}
+
+	#signature {
+		visibility: hidden;
+	}
+
+
 }
