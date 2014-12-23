@@ -1,4 +1,4 @@
-This is the README file of my personal website. You won't find much here. Except for this! HAHAHAHA
+This is the README file of my personal website. You won't find much here. Except for this!
 
                _ 
               (\\  _                      ___
