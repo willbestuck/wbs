@@ -6,7 +6,7 @@
 	background-size: cover;
 	/*border-bottom: 2px groove #EAEDF3;*/*/
 	position: relative;
-	height: 85%;
+	height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -18,14 +18,15 @@
 	/*border-bottom: 2px groove #D3D5DB;*/*/
 
 	position: relative;
-	height: 230px;
+	height: auto;
 	width: 100%;
 	margin: 0;
 	padding: 0px;
 }
 
 #desc {
-	padding-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 	color: #191E2A;
 	font-family: 'Abel', sans-serif;
