@@ -18,10 +18,11 @@
 	/*border-bottom: 2px groove #D3D5DB;*/*/
 
 	position: relative;
-	height: auto;
+	height: 20%;
 	width: 100%;
 	margin: 0;
-	padding: 0px;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 #desc {
